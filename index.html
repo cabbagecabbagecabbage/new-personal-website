@@ -29,7 +29,11 @@
 		<title>Rayton Chen</title>
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/main.css" /> 
+		<link rel="stylesheet" href="css/hero.css" /> 
+		<link rel="stylesheet" href="css/about.css" /> 
+		<link rel="stylesheet" href="css/projects.css" /> 
+		<link rel="stylesheet" href="css/scrollbar.css /> 
 
 		<!-- Font Awesome -->
 		<link
@@ -37,23 +41,85 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
 	</head>
 	<body>
-		<footer>
-			<div class="footer-links">
-				<a
-					href="https://github.com/cabbagecabbagecabbage"
-					target="_blank"
-					><i class="fab fa-github"></i
-				></a>
-				<a href="mailto:rayton.chen@gmail.com" target="_blank"
-					><i class="fas fa-envelope"></i
-				></a>
-				<a
-					href="https://discord.com/users/513424702388305935"
-					target="_blank"
-					><i class="fab fa-discord"></i
-				></a>
+		<div class="background"></div>
+		<section id="hero">
+			<div class="intro-text text-large">
+				Hello, I'm Rayton!
 			</div>
-			<div class="copyright">Copyright © 2022 Rayton Chen</div>
-		</footer>
+		</section>
+		<section id="about">
+			<div class="glass-card">
+				<h1 class="about-title text-large">About Me</h1>
+				<!-- <div class="about-cards">
+					<div class="about-card text-medium">
+						Hello! My name is Rayton, though you may recognize me by my handle "cabbagecabbagecabbage" on various online platforms. Nice to meet you!
+					</div>
+					<div class="about-card">world</div>
+					<div class="about-card">ok</div>
+				</div> -->
+				<div class="about-text text-medium mt-3">
+					Hello! My name is Rayton, though you may recognize me by my handle "cabbagecabbagecabbage" on various online platforms. Nice to meet you!
+					<br>
+					<br>
+					I am an 18-year-old computer science major from Canada. I have some experience and interest in algorithms and data structures, game development, and web development.
+					<br>
+					<br>
+					In my spare time, I like to listen to music, play chess, and shoot hoops on my driveway. Occasionally, I train for math contests and programming competitions.
+				</div>
+			</div>
+		</section>
+		<section id="projects">
+			<h1 class="projects-title text-large">My Projects</h1>
+			<div class="projects-grid">
+				<a href="https://github.com/ABehniwal/UNO" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/UNO.png" alt="">
+						<h3 class="text-medium">UNO</h3>
+						<p class="text-small">An online multiplayer UNO clone with an easy-to-use interface. Allows multiple simultaneous game rooms and real-time gameplay with other players. Made with HTML, CSS, JS, Express.js, Socket.io, and SweetAlert2.</p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/Paint-Program" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/Paint.png" alt="">
+						<h3 class="text-medium">Paint Program</h3>
+						<p class="text-small">A clone of MS Paint with a vast array of features and shortcuts, such as integrated image searching and scraping. Made with Pygame (Python 3) and User Agent. </p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/Competitive-Programming" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/CompetitiveProgramming.png" alt="">
+						<h3 class="text-medium">Competitive Programming</h3>
+						<p class="text-small">
+							My solutions to over 600 competitive programming problems from DMOJ, Codeforces, and AtCoder.
+						</p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/Asteroids" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/Asteroids.png" alt="">
+						<h3 class="text-medium">Asteroids</h3>
+						<p class="text-small">The classic arcade game, Asteroids, recreated with Java Swing. Keeps track of local high score.</p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/DMOJ-Bot" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/DMOJBot.png" alt="">
+						<h3 class="text-medium">DMOJ-Bot</h3>
+						<p class="text-small">
+							Discord bot for DMOJ. Displays statistics and leaderboards, fetches problems, officiates duels (2 users racing to solve a problem), and more. Made with discord.py, DMOJ api, and flask. Note: this bot is not officially affiliated with DMOJ.
+						</p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/arduino-safe" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/ArduinoSafe.jpg" alt="">
+						<h3 class="text-medium">Arduino Safe</h3>
+						<p class="text-small">
+							A safe built with Arduino, NodeMCU and other components. Supports password protection, password change, push button to lock door, and Discord notifications when the door is locked/unlocked.
+						</p>
+					</div>
+				</a>
+			</div>
+		</section>
 	</body>
 </html>

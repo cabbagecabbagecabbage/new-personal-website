@@ -1,0 +1,30 @@
+#about {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about > .glass-card {
+    height: fit-content;
+    width: 100%;
+    padding: 3rem;
+}
+
+/* .about-cards {
+    --min: 10ch;
+    --gap: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.about-card {
+    flex: 1 1 var(--min);
+} */
+
+.about-title {
+    margin-bottom: 1rem;
+}
