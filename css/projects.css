@@ -5,7 +5,7 @@
 
 .projects-grid {
     /* https://smolcss.dev/#smol-card-component */
-    --min: 25ch;
+    --min: 30ch;
     --gap: 2rem;
 
     display: grid;
@@ -33,6 +33,11 @@
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
     /* border-radius: 0.5rem; */
     padding-bottom: 2rem;
+}
+
+.project-card > h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 
 .project-card > img {
