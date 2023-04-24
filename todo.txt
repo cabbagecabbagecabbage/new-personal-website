@@ -1,1 +1,2 @@
 add recent projects
+fix responsiveness: background and exp images
