@@ -6,6 +6,7 @@ footer {
     justify-content: space-evenly;
     padding: 1rem 0;
     border-radius: 0 !important;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
 }
 
 .footer-links {
