@@ -21,3 +21,36 @@
 #hero a:hover > img {
   transform: rotate(360deg);
 }
+
+.roller{
+  height: 3rem;
+  line-height: 3rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+}
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -3rem;    
+  }
+  50%{
+    top: -6rem;
+  }
+  72.5%{
+    top: -9rem;
+  }
+}
+
