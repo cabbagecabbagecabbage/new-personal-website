@@ -21,7 +21,8 @@
 }
 
 .projects-grid > a:hover {
-    transform: scale(1.02);
+    /* transform: scale(1.01); */
+    transform: translateY(-4px);
 }
 
 .project-card {
