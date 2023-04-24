@@ -12,14 +12,17 @@
     padding: 3rem;
 }
 
-/* media query to reduce padding for small screen sizes */
+
+.about-title {
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 1200px) {
+    .about-title {
+        text-align: center;
+    }
     #about > .glass-card {
         padding: 1.5rem;
     }
 }
 
-
-.about-title {
-    margin-bottom: 1rem;
-}

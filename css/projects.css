@@ -5,7 +5,7 @@
 
 .projects-grid {
     /* https://smolcss.dev/#smol-card-component */
-    --min: 30ch;
+    --min: 25ch;
     --gap: 2rem;
 
     display: grid;
