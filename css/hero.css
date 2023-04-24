@@ -2,4 +2,21 @@
     height: 40vh;
     display: grid;
     place-content: center;
+    text-align: center;
+}
+
+.hero-cabbage {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+#hero img {
+  --transition-property: transform;
+  --transition-duration: 600ms;
+  transition: var(--transition-property) var(--transition-duration) ease-in-out;
+}
+
+#hero a:hover > img {
+  transform: rotate(360deg);
 }

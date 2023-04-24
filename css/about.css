@@ -12,18 +12,13 @@
     padding: 3rem;
 }
 
-/* .about-cards {
-    --min: 10ch;
-    --gap: 1rem;
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap);
+/* media query to reduce padding for small screen sizes */
+@media (max-width: 1200px) {
+    #about > .glass-card {
+        padding: 1.5rem;
+    }
 }
 
-.about-card {
-    flex: 1 1 var(--min);
-} */
 
 .about-title {
     margin-bottom: 1rem;

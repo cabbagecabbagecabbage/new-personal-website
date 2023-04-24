@@ -42,3 +42,8 @@ footer {
 .fa-envelope {
     color: #e4a010;
 }
+
+.fa-file {
+    color: darkblue;
+    opacity: 0.8;
+}

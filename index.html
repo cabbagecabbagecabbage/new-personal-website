@@ -33,6 +33,7 @@
 		<link rel="stylesheet" href="css/hero.css" /> 
 		<link rel="stylesheet" href="css/about.css" /> 
 		<link rel="stylesheet" href="css/projects.css" /> 
+		<link rel="stylesheet" href="css/experience.css" /> 
 		<link rel="stylesheet" href="css/scrollbar.css" /> 
 		<link rel="stylesheet" href="css/footer.css" /> 
 
@@ -44,9 +45,12 @@
 	<body>
 		<div class="background"></div>
 		<section id="hero">
-			<div class="intro-text text-large">
-				Hello, I'm Rayton!
-			</div>
+			<a href="/" style="text-decoration: none;">
+				<image src="images/cabbage.png" alt="" class="hero-cabbage" />
+				<div class="intro-text text-large">
+					Hello, I'm Rayton!
+				</div>
+			</a>
 		</section>
 		<section id="about">
 			<div class="glass-card">
@@ -59,24 +63,31 @@
 					<div class="about-card">ok</div>
 				</div> -->
 				<div class="about-text text-medium mt-3">
-					Hello! My name is Rayton, though you may recognize me by my handle "cabbagecabbagecabbage" on various online platforms. Nice to meet you!
+					Hello! My name is Rayton, though you may recognize me as "cabbagecabbagecabbage" on various online platforms. Nice to meet you!
 					<br>
 					<br>
-					I am an 18-year-old computer science major from Canada. I have some experience and interest in algorithms and data structures, game development, and web development.
+					I am an 18-year-old computer science major from Canada. I have experience and interest in algorithms and data structures, game development, and web development.
 					<br>
 					<br>
-					In my spare time, I like to listen to music, play chess, and shoot hoops on my driveway. Occasionally, I train for math contests and programming competitions.
+					In my spare time, I like to listen to music, play chess, and shoot hoops on my driveway. I am also a retired competitive programmer and mathlete.
 				</div>
 			</div>
 		</section>
 		<section id="projects">
-			<h1 class="projects-title text-large">My Projects</h1>
+			<h1 class="projects-title text-large">Projects</h1>
 			<div class="projects-grid">
 				<a href="https://github.com/ABehniwal/UNO" target="_blank">
 					<div class="project-card glass-card">
 						<img src="images/projects/UNO.png" alt="">
 						<h3 class="text-medium">UNO</h3>
 						<p class="text-small">An online multiplayer UNO clone with an easy-to-use interface. Allows multiple simultaneous game rooms and real-time gameplay with other players. Made with HTML, CSS, JS, Express.js, Socket.io, and SweetAlert2.</p>
+					</div>
+				</a>
+				<a href="https://github.com/cabbagecabbagecabbage/LOAF" target="_blank">
+					<div class="project-card glass-card">
+						<img src="images/projects/LOAF.png" alt="">
+						<h3 class="text-medium">LOAF</h3>
+						<p class="text-small">LOAF (Lightweight & Open-source Anonymous Forum) is a general-purpose anonymous Q&A platform application built with Angular, ASP.NET Core, and SQLite. Supports search, post tags, and LaTex rendering.</p>
 					</div>
 				</a>
 				<a href="https://github.com/cabbagecabbagecabbage/Paint-Program" target="_blank">
@@ -122,6 +133,39 @@
 				</a>
 			</div>
 		</section>
+		<section id="experience">
+			<h1 class="experience-title text-large">Experience</h1>
+			<div class="card-container">
+				<div class="card glass-card">
+					<img src="/images/experience/mh.png">
+					<div class="card-text text-small">
+						<h3>MasseyHacks IX</h3>
+						<p>Co-director</p>
+					</div>
+				</div>
+				<div class="card glass-card">
+					<img src="/images/experience/cr.png">
+					<div class="card-text text-small">
+						<h3>CodeReach</h3>
+						<p>Co-director</p>
+					</div>
+				</div>
+				<div class="card glass-card">
+					<img src="/images/experience/vmcsc.png">
+					<div class="card-text text-small">
+						<h3>Vincent Massey Computer Science Club</h3>
+						<p>Senior Stream Teacher + Contest Organizer</p>
+					</div>
+				</div>
+				<div class="card glass-card">
+					<img src="/images/experience/mh8.png">
+					<div class="card-text text-small">
+						<h3>MasseyHacks VIII</h3>
+						<p>Technology Organizer</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		<footer class="glass-card">
 			<div class="footer-links">
 				<a href="https://github.com/cabbagecabbagecabbage" target="_blank"
@@ -133,6 +177,8 @@
 				<a href="https://discord.com/users/513424702388305935" target="_blank"
 				><i class="fab fa-discord"></i
 				></a>
+				<a href="/resume.pdf" target="_blank"
+				><i class="far fa-file"></i></a>
 			</div>
 			<div class="copyright">Copyright © 2023 Rayton Chen</div>
 		</footer>

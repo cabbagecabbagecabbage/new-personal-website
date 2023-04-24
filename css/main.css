@@ -37,6 +37,13 @@ section {
     width: 60%;
 }
 
+/* media query for smaller than 1200px */
+@media (max-width: 1200px) {
+    section {
+        width: 90%;
+    }
+}
+
 .background {
     position: fixed;
     top: 0;
