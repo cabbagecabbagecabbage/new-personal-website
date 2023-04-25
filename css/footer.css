@@ -1,4 +1,5 @@
 footer {
+    --footer-spacing: 0.5rem;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ footer {
 
 .copyright {
     color: white;
-    padding: var(--footer-spacing);
+    padding: 0.5rem;
 }
 
 .footer-links img {
