@@ -1,2 +1,2 @@
 add recent projects
-fix responsiveness: background and exp images
+fix responsiveness: background and experience card sizes on ios
