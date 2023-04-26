@@ -6,6 +6,11 @@
     margin-top: 0;
 }
 
+@media screen and (min-width: 1400px) {
+    #about {
+        width: 50%;
+    }
+}
 
 #about > .glass-card {
     height: fit-content;
