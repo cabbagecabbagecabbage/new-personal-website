@@ -55,9 +55,12 @@
 		<link rel="stylesheet" href="css/experience.css" />
 		<link rel="stylesheet" href="css/scrollbar.css" />
 		<link rel="stylesheet" href="css/footer.css" />
+
+		<script src="js/three.min.js"></script>
+		<script src="js/vanta.waves.min.js"></script>
 	</head>
 	<body>
-		<div class="background"></div>
+		<div id="background" class="background"></div>
 		<div id="hero">
 			<a
 				href="https://raytonchen.com/"
@@ -299,5 +302,19 @@
 			</div>
 			<div class="copyright">Copyright © 2023 Rayton Chen</div>
 		</footer>
+
+		<script>
+			VANTA.WAVES({
+				el: "#background",
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: false,
+				minHeight: 200.0,
+				minWidth: 200.0,
+				scale: 1.0,
+				scaleMobile: 1.0,
+				color: 0xd152a,
+			});
+		</script>
 	</body>
 </html>
