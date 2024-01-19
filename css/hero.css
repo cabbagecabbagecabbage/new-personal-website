@@ -28,11 +28,11 @@
   transform: rotate(360deg);
 }
 
-.roller{
+.roller {
   height: 3rem;
   line-height: 3rem;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -43,20 +43,29 @@
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;  
-}
-@keyframes slide {
-  0%{
-    top:0;
-  }
-  25%{
-    top: -3rem;    
-  }
-  50%{
-    top: -6rem;
-  }
-  72.5%{
-    top: -9rem;
-  }
+  animation: slide 8s infinite; /* Adjusted the animation duration */
 }
 
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  16.67% {
+    top: -3rem;
+  }
+  33.33% {
+    top: -6rem;
+  }
+  50% {
+    top: -9rem;
+  }
+  66.67% {
+    top: -12rem; /* Added a new position for the 5th line */
+  }
+  83.33% {
+    top: -15rem; /* Added a new position for the 6th line */
+  }
+  100% {
+    top: 0; /* Smoothly return to the top */
+  }
+}
