@@ -1,71 +1,72 @@
 #hero {
-    height: fit-content;
-    margin: 7rem 0;
-    display: grid;
-    place-content: center;
-    text-align: center;
+	height: fit-content;
+	margin: 7rem 0;
+	display: grid;
+	place-content: center;
+	text-align: center;
 }
 
 @media screen and (max-width: 1400px) {
-    #hero {
-        margin: 4rem 0;
-    }
+	#hero {
+		margin: 4rem 0;
+	}
 }
 
 .hero-cabbage {
-    width: 9rem;
-    height: 9rem;
-    margin-bottom: 2rem;
+	width: 9rem;
+	height: 9rem;
+	margin-bottom: 2rem;
 }
 
 #hero img {
-  --transition-property: transform;
-  --transition-duration: 600ms;
-  transition: var(--transition-property) var(--transition-duration) ease-in-out;
+	--transition-property: transform;
+	--transition-duration: 600ms;
+	transition: var(--transition-property) var(--transition-duration)
+		ease-in-out;
 }
 
 #hero a:hover > img {
-  transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 .roller {
-  height: 3rem;
-  line-height: 3rem;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+	height: 3rem;
+	line-height: 3rem;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
 }
 
 .roller #rolltext {
-  position: absolute;
-  top: 0;
-  animation: slide 8s infinite; /* Adjusted the animation duration */
+	position: absolute;
+	top: 0;
+	animation: slide 8s infinite;
 }
 
 @keyframes slide {
-  0% {
-    top: 0;
-  }
-  16.67% {
-    top: -3rem;
-  }
-  33.33% {
-    top: -6rem;
-  }
-  50% {
-    top: -9rem;
-  }
-  66.67% {
-    top: -12rem; /* Added a new position for the 5th line */
-  }
-  83.33% {
-    top: -15rem; /* Added a new position for the 6th line */
-  }
-  100% {
-    top: 0; /* Smoothly return to the top */
-  }
+	0% {
+		top: 0;
+	}
+	16.67% {
+		top: -3rem;
+	}
+	33.33% {
+		top: -6rem;
+	}
+	50% {
+		top: -9rem;
+	}
+	66.67% {
+		top: -12rem;
+	}
+	83.33% {
+		top: -15rem;
+	}
+	100% {
+		top: 0;
+	}
 }
