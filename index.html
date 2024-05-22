@@ -1,230 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Meta -->
-		<link rel="canonical" href="https://raytonchen.com/" />
-		<meta
-			name="description"
-			content="Hello, I'm Rayton. Nice to meet you!" />
-		<meta property="og:title" content="Rayton Chen" />
-		<meta
-			property="og:description"
-			content="Hello, I'm Rayton. Nice to meet you!" />
-		<meta
-			property="og:image"
-			content="https://raytonchen.com/images/cabbage.png" />
-		<meta property="og:url" content="https://raytonchen.com/" />
-		<meta property="og:type" content="website" />
-		<meta property="twitter:title" content="Rayton Chen" />
-		<meta
-			property="twitter:description"
-			content="Hello, I'm Rayton. Nice to meet you!" />
+        <!-- Meta -->
+        <link rel="canonical" href="https://raytonchen.com/" />
+        <meta
+            name="description"
+            content="Hello, I'm Rayton. Nice to meet you!"
+        />
+        <meta property="og:title" content="Rayton Chen" />
+        <meta
+            property="og:description"
+            content="Hello, I'm Rayton. Nice to meet you!"
+        />
+        <meta
+            property="og:image"
+            content="https://raytonchen.com/images/cabbage.png"
+        />
+        <meta property="og:url" content="https://raytonchen.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="twitter:title" content="Rayton Chen" />
+        <meta
+            property="twitter:description"
+            content="Hello, I'm Rayton. Nice to meet you!"
+        />
 
-		<!-- Favicon -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="/apple-touch-icon.png" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/favicon-32x32.png" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/favicon-16x16.png" />
-		<link rel="manifest" href="/site.webmanifest" />
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-		<meta name="msapplication-TileColor" content="#da532c" />
-		<meta name="theme-color" content="#ffffff" />
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
 
-		<!-- Title -->
-		<title>Rayton Chen</title>
+        <!-- Title -->
+        <title>Rayton Chen</title>
 
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> -->
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> -->
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/hero.css" />
-		<link rel="stylesheet" href="css/about.css" />
-		<link rel="stylesheet" href="css/projects.css" />
-		<!-- <link rel="stylesheet" href="css/experience.css" /> -->
-		<link rel="stylesheet" href="css/scrollbar.css" />
-		<link rel="stylesheet" href="css/footer.css" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/hero.css" />
+        <link rel="stylesheet" href="css/about.css" />
+        <link rel="stylesheet" href="css/projects.css" />
+        <!-- <link rel="stylesheet" href="css/experience.css" /> -->
+        <link rel="stylesheet" href="css/scrollbar.css" />
+        <link rel="stylesheet" href="css/footer.css" />
 
-		<script src="js/three.min.js"></script>
-		<script src="js/vanta.waves.min.js"></script>
-	</head>
-	<body>
-		<div id="background" class="background"></div>
-		<div id="hero">
-			<a
-				href="https://raytonchen.com/"
-				style="text-decoration: none"
-				aria-label="home">
-				<image src="images/cabbage.png" alt="" class="hero-cabbage" />
-			</a>
-			<div class="intro-text text-large">
-				<span>Hello! I'm Rayton, a</span>
-				<div class="roller">
-					<span id="rolltext">
-						student<br />
-						programmer<br />
-						casual chess player<br />
-						beginner violinist<br />
-						hobbyist writer<br />
-						regular person
-					</span>
-				</div>
-			</div>
-		</div>
-		<section id="about">
-			<div class="glass-card">
-				<!-- <h1 class="about-title text-large">About Me</h1> -->
-				<div class="about-text text-medium mt-3">
-					I'm an 18-yo CS major with some experience and interest in
-					algorithmic problem-solving and web development. I'm curious
-					about lots of subjects and I enjoy learning and exploring
-					new things.
-					<br />
-					<br />
-					Programming aside, I'm also interested in psychology and
-					entrepreneurship. In my spare time, I like to play chess,
-					listen to music, and practice violin.
-					<br />
-					<br />
-					Feel free to reach out and chat with me!
-				</div>
-			</div>
-		</section>
-		<section id="projects">
-			<h1 class="projects-title text-large">Projects</h1>
-			<div class="projects-grid">
-				<a href="https://github.com/ABehniwal/UNO" target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/UNO.png" alt="uno" />
-						<h3 class="text-medium">UNO</h3>
-						<p class="text-small">
-							An online multiplayer UNO clone with an easy-to-use
-							interface. Allows multiple simultaneous game rooms
-							and real-time gameplay with other players. Made with
-							Express.js, and Socket.io.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/LOAF"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/LOAF.png" alt="loaf" />
-						<h3 class="text-medium">Q&A Platform</h3>
-						<p class="text-small">
-							A general-purpose anonymous Q&A platform application
-							built with Angular, ASP.NET Core, and SQLite.
-							Supports search, post tags, and LaTex rendering.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/fast-slow"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/fastslow.png" alt="safe" />
-						<h3 class="text-medium">Fast-Slow Debugger</h3>
-						<p class="text-small">
-							Convenient web-based tool for employ the "Fast-Slow"
-							debugging technique. Automates the comparison
-							between the output of an optimized script and a
-							correct but less efficient script by generating
-							millions of test cases and identifying
-							discrepancies. Built with Express.js and Python.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/Paint-Program"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/Paint.png" alt="paint" />
-						<h3 class="text-medium">Paint Program</h3>
-						<p class="text-small">
-							A clone of MS Paint with a vast array of features
-							and shortcuts, such as integrated image searching
-							and scraping. Made with Pygame (Python).
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/Competitive-Programming"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img
-							src="images/projects/CompetitiveProgramming.png"
-							alt="cp" />
-						<h3 class="text-medium">Competitive Programming</h3>
-						<p class="text-small">
-							My solutions to over 600 competitive programming
-							problems from DMOJ, Codeforces, and AtCoder.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/Asteroids"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img
-							src="images/projects/Asteroids.png"
-							alt="asteroids" />
-						<h3 class="text-medium">Asteroids</h3>
-						<p class="text-small">
-							The classic arcade game, Asteroids, recreated with
-							Swing (Java). Keeps track of local high score.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/DMOJ-Bot"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/DMOJBot.png" alt="dmoj bot" />
-						<h3 class="text-medium">DMOJ-Bot</h3>
-						<p class="text-small">
-							Discord bot that interacts with DMOJ api. Displays
-							statistics and leaderboards, fetches problems,
-							officiates duels (2 users racing to solve a
-							problem), and more. Made with discord.py and flask.
-							Not affiliated with DMOJ.
-						</p>
-					</div>
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage/arduino-safe"
-					target="_blank">
-					<div class="project-card glass-card">
-						<img src="images/projects/ArduinoSafe.jpg" alt="safe" />
-						<h3 class="text-medium">Arduino Safe</h3>
-						<p class="text-small">
-							A prototype safe built with Arduino, NodeMCU and
-							other components. Supports password protection,
-							password change, push button to lock door, and
-							Discord notifications when the door is
-							locked/unlocked.
-						</p>
-					</div>
-				</a>
-			</div>
-		</section>
-		<!-- <section id="experience">
+        <script src="js/three.min.js"></script>
+        <script src="js/vanta.waves.min.js"></script>
+    </head>
+    <body>
+        <div id="background" class="background"></div>
+        <div id="hero">
+            <a
+                href="https://raytonchen.com/"
+                style="text-decoration: none"
+                aria-label="home"
+            >
+                <image src="images/cabbage.png" alt="" class="hero-cabbage" />
+            </a>
+            <div class="intro-text text-large">
+                <span>Hello! I'm Rayton, a</span>
+                <div class="roller">
+                    <span id="rolltext">
+                        student<br />
+                        programmer<br />
+                        casual chess player<br />
+                        beginner violinist<br />
+                        hobbyist writer<br />
+                        regular person
+                    </span>
+                </div>
+            </div>
+        </div>
+        <section id="about">
+            <div class="glass-card">
+                <!-- <h1 class="about-title text-large">About Me</h1> -->
+                <div class="about-text text-medium mt-3">
+                    I'm an 18-year-old CS major from University of Waterloo.
+                    I'm curious about lots of subjects, and I enjoy learning and
+                    exploring new things.
+                    <br />
+                    <br />
+                    Programming aside, I'm also interested in strategy games and
+                    entrepreneurship. In my spare time, I like to play chess,
+                    practice violin, and shoot hoops on my driveway.
+                    <br />
+                    <br />
+                    Feel free to reach out and chat with me!
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1 class="projects-title text-large">Projects</h1>
+            <div class="projects-grid">
+                <a href="https://github.com/ABehniwal/UNO" target="_blank">
+                    <div class="project-card glass-card">
+                        <img src="images/projects/UNO.png" alt="uno" />
+                        <h3 class="text-medium">UNO</h3>
+                        <p class="text-small">
+                            An online multiplayer UNO clone with an easy-to-use
+                            interface. Allows multiple simultaneous game rooms
+                            and real-time gameplay with other players. Made with
+                            Express.js, and Socket.io.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/LOAF"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img src="images/projects/LOAF.png" alt="loaf" />
+                        <h3 class="text-medium">Q&A Platform</h3>
+                        <p class="text-small">
+                            A general-purpose anonymous Q&A platform application
+                            built with Angular, ASP.NET Core, and SQLite.
+                            Supports search, post tags, and LaTex rendering.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/fast-slow"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img src="images/projects/fastslow.png" alt="safe" />
+                        <h3 class="text-medium">Fast-Slow Debugger</h3>
+                        <p class="text-small">
+                            Convenient web-based tool for employ the "Fast-Slow"
+                            debugging technique. Automates the comparison
+                            between the output of an optimized script and a
+                            correct but less efficient script by generating
+                            millions of test cases and identifying
+                            discrepancies. Built with Express.js and Python.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/Paint-Program"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img src="images/projects/Paint.png" alt="paint" />
+                        <h3 class="text-medium">Paint Program</h3>
+                        <p class="text-small">
+                            A clone of MS Paint with a vast array of features
+                            and shortcuts, such as integrated image searching
+                            and scraping. Made with Pygame (Python).
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/Competitive-Programming"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img
+                            src="images/projects/CompetitiveProgramming.png"
+                            alt="cp"
+                        />
+                        <h3 class="text-medium">Competitive Programming</h3>
+                        <p class="text-small">
+                            My solutions to over 600 competitive programming
+                            problems from DMOJ, Codeforces, and AtCoder.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/Asteroids"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img
+                            src="images/projects/Asteroids.png"
+                            alt="asteroids"
+                        />
+                        <h3 class="text-medium">Asteroids</h3>
+                        <p class="text-small">
+                            The classic arcade game, Asteroids, recreated with
+                            Swing (Java). Keeps track of local high score.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/DMOJ-Bot"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img src="images/projects/DMOJBot.png" alt="dmoj bot" />
+                        <h3 class="text-medium">DMOJ-Bot</h3>
+                        <p class="text-small">
+                            Discord bot that interacts with DMOJ api. Displays
+                            statistics and leaderboards, fetches problems,
+                            officiates duels (2 users racing to solve a
+                            problem), and more. Made with discord.py and flask.
+                            Not affiliated with DMOJ.
+                        </p>
+                    </div>
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage/arduino-safe"
+                    target="_blank"
+                >
+                    <div class="project-card glass-card">
+                        <img src="images/projects/ArduinoSafe.jpg" alt="safe" />
+                        <h3 class="text-medium">Arduino Safe</h3>
+                        <p class="text-small">
+                            A prototype safe built with Arduino, NodeMCU and
+                            other components. Supports password protection,
+                            password change, push button to lock door, and
+                            Discord notifications when the door is
+                            locked/unlocked.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- <section id="experience">
 			<h1 class="experience-title text-large">Experience</h1>
 			<div class="card-container">
 				<a
@@ -271,58 +290,62 @@
 				</a>
 			</div>
 		</section> -->
-		<footer class="glass-card">
-			<div class="footer-links">
-				<a href="/resume.pdf" target="_blank"
-					><img
-						id="file-user"
-						src="/images/icons/file-user.svg"
-						alt="resume" />
-				</a>
-				<a
-					href="https://github.com/cabbagecabbagecabbage"
-					target="_blank">
-					<img
-						id="github"
-						src="/images/icons/github.svg"
-						alt="github" />
-				</a>
-				<a href="https://linkedin.com/in/rayton-chen" target="_blank">
-					<img
-						id="linkedin"
-						src="/images/icons/linkedin.svg"
-						alt="linkedin" />
-				</a>
-				<a href="mailto:rayton.chen@gmail.com" target="_blank"
-					><img
-						id="envelope"
-						src="/images/icons/envelope.svg"
-						alt="email"
-				/></a>
-				<a
-					href="https://discord.com/users/513424702388305935"
-					target="_blank"
-					><img
-						id="discord"
-						src="/images/icons/discord.svg"
-						alt="discord"
-				/></a>
-			</div>
-			<div class="copyright">Copyright © 2023 Rayton Chen</div>
-		</footer>
+        <footer class="glass-card">
+            <div class="footer-links">
+                <a href="/resume.pdf" target="_blank"
+                    ><img
+                        id="file-user"
+                        src="/images/icons/file-user.svg"
+                        alt="resume"
+                    />
+                </a>
+                <a
+                    href="https://github.com/cabbagecabbagecabbage"
+                    target="_blank"
+                >
+                    <img
+                        id="github"
+                        src="/images/icons/github.svg"
+                        alt="github"
+                    />
+                </a>
+                <a href="https://linkedin.com/in/rayton-chen" target="_blank">
+                    <img
+                        id="linkedin"
+                        src="/images/icons/linkedin.svg"
+                        alt="linkedin"
+                    />
+                </a>
+                <a href="mailto:rayton.chen@gmail.com" target="_blank"
+                    ><img
+                        id="envelope"
+                        src="/images/icons/envelope.svg"
+                        alt="email"
+                /></a>
+                <a
+                    href="https://discord.com/users/513424702388305935"
+                    target="_blank"
+                    ><img
+                        id="discord"
+                        src="/images/icons/discord.svg"
+                        alt="discord"
+                /></a>
+            </div>
+            <div class="copyright">Copyright © 2023 Rayton Chen</div>
+        </footer>
 
-		<script>
-			VANTA.WAVES({
-				el: "#background",
-				mouseControls: true,
-				touchControls: true,
-				gyroControls: false,
-				minHeight: 200.0,
-				minWidth: 200.0,
-				scale: 1.0,
-				scaleMobile: 1.0,
-				color: 0xd152a,
-			});
-		</script>
-	</body>
+        <script>
+            VANTA.WAVES({
+                el: "#background",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+                color: 0xd152a,
+            });
+        </script>
+    </body>
 </html>
